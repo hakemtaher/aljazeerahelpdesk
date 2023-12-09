@@ -99,7 +99,7 @@
                                             @endif
                                         </td> --}}
                                         <td>
-                                            <span class="pl-3">{{ @$ticket->customer->villa }}</span>
+                                            <span class="pl-3">{{ @$ticket->customer->villa }}</span>{{-- test --}}
                                         </td>
                                         <td>
                                             {{-- $ticket->department->name['id'] --}}
