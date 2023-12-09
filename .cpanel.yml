@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bi0wx3gcr23i/public_html/aljazeera.services/
+    - /bin/cp -R resources $DEPLOYPATH
